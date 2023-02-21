@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Webview= findViewById(R.id.Webview)
         WebViewClient= WebViewClient()
+        progressBar = ProgressBar(this)
         Webview.loadUrl("https://www.google.com")
         Webview.setWebViewClient(object : WebViewClient(){
 

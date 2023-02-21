@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Webview Layout</string>
+    <string name="my_browser">My Browser</string>
 </resources>
